@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e9808ee-149e-4f40-be56-95d941398f96" name="Changes" comment="Setup done">
-      <change afterPath="$PROJECT_DIR$/src/kata3/HistogramDisplay.java" afterDir="false" />
+    <list default="true" id="1e9808ee-149e-4f40-be56-95d941398f96" name="Changes" comment="Version 1">
+      <change afterPath="$PROJECT_DIR$/src/kata3/Histogram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kata3/HistogramDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata3/HistogramDisplay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kata3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata3/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666164468001</updated>
-      <workItem from="1666164471016" duration="2648000" />
+      <workItem from="1666164471016" duration="4516000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1666164537739</created>
@@ -91,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666165143464</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Version 1">
+      <created>1666167312299</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666167312299</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +119,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Setup done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup done" />
+    <MESSAGE value="Version 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1" />
   </component>
 </project>

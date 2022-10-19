@@ -12,9 +12,12 @@ import java.awt.*;
 
 public class HistogramDisplay extends ApplicationFrame {
 
-    public HistogramDisplay(String title) {
+    private final Histogram<String> histogram;
+
+    public HistogramDisplay(String title, Histogram<String> histogram) {
         super(title);
 
+        this.histogram = histogram;
 
         this.setContentPane(createJPanel());
 
@@ -49,13 +52,13 @@ public class HistogramDisplay extends ApplicationFrame {
     private DefaultCategoryDataset createDataSet() {
         DefaultCategoryDataset dataset = new DefaultCategoryDataset();
 
-        dataset.addValue(4, "", "ulpgc.es");
-        dataset.addValue(2, "", "dis.ulpgc.es");
-        dataset.addValue(4, "", "eii.ulpgc.es");
-        dataset.addValue(9, "", "gmail.com");
-        dataset.addValue(6, "", "yahoo.es");
-        dataset.addValue(5, "", "hotmail.es");
-
+        for (String key: histogram.keySet()) {
+            dataset.addValue(
+                    histogram.get(key),
+                    "",
+                    key
+            );
+        }
 
         return dataset;
     }
