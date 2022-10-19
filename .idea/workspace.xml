@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e9808ee-149e-4f40-be56-95d941398f96" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/kata3/Main.java" afterDir="false" />
+    <list default="true" id="1e9808ee-149e-4f40-be56-95d941398f96" name="Changes" comment="Setup done">
+      <change afterPath="$PROJECT_DIR$/src/kata3/HistogramDisplay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kata3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Kata3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kata3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata3/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +47,26 @@
       <recent name="C:\Users\olabr\Documents\ULPGC\fifth_semester\IS2\Kata3\JFreeChart" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kata3.Main" />
+      <module name="Kata3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kata3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666164468001</updated>
-      <workItem from="1666164471016" duration="597000" />
+      <workItem from="1666164471016" duration="2648000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1666164537739</created>
@@ -65,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666164537739</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Setup done">
+      <created>1666165143464</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666165143464</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,6 +110,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Setup done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup done" />
   </component>
 </project>
