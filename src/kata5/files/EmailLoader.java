@@ -1,4 +1,4 @@
-package kata3.files;
+package kata5.files;
 
 import java.util.Iterator;
 import java.util.function.Predicate;

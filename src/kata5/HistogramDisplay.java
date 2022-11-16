@@ -1,4 +1,4 @@
-package kata3;
+package kata5;
 
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;

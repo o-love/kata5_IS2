@@ -1,7 +1,7 @@
-package kata3;
+package kata5;
 
-import kata3.files.EmailLoader;
-import kata3.files.FileLoader;
+import kata5.files.EmailLoader;
+import kata5.files.FileLoader;
 
 import javax.swing.*;
 import java.io.File;

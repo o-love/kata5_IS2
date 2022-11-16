@@ -1,4 +1,4 @@
-package kata3.files;
+package kata5.files;
 
 public interface Loader {
     Iterable<String> items();
