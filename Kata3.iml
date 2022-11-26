@@ -17,5 +17,7 @@
         <jarDirectory url="file://$MODULE_DIR$/JFreeChart" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="io.github.willena.sqlite.jdbc" level="project" />
+    <orderEntry type="library" name="sqlite-jdbc-3.39.4.0" level="project" />
   </component>
 </module>
