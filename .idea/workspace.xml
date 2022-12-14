@@ -1,23 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e9808ee-149e-4f40-be56-95d941398f96" name="Changes" comment="kata5 Initial">
+    <list default="true" id="1e9808ee-149e-4f40-be56-95d941398f96" name="Changes" comment="Commit all other files">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kata5/model/Flight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kata5/model/FlightHistogramFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kata5/model/persistence/Loader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kata5/model/persistence/files/SQLiteFlightLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/19cedbaf-d15a-4c1d-830d-fa377e4c0414.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flights.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/identifier.sqlite" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kata3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Kata3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kata5/Histogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata5/model/Histogram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kata5/HistogramDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata5/view/HistogramDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kata5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata5/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kata5/files/EmailLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kata5/files/FileLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kata5/files/Loader.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,11 +25,20 @@
       </list>
     </option>
   </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="wpeeywoe" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="ProjectId" id="2GLOaWL5J1au9JpYIyUfuI99YLj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -57,11 +59,16 @@
     "jdk.selected.JAVA_MODULE": "17",
     "last.edited.regexp": "hello.hi@something.com",
     "last_opened_file_path": "C:/Users/olabr/OneDrive/Documents/ULPGC/fifth_semester/IS2/kata5",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "database.query.execution"
+    "settings.editor.selected.configurable": "preferences.sourceCode",
+    "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -110,7 +117,8 @@
       <workItem from="1668589810385" duration="9718000" />
       <workItem from="1669055780946" duration="414000" />
       <workItem from="1669279721623" duration="1450000" />
-      <workItem from="1669453198676" duration="2467000" />
+      <workItem from="1669453198676" duration="4049000" />
+      <workItem from="1671009369917" duration="780000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1666164537739</created>
@@ -140,7 +148,35 @@
       <option name="project" value="LOCAL" />
       <updated>1668590223321</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Kata 5 Version 1">
+      <created>1669457116681</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669457116681</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Kata 5 Version 1">
+      <created>1669458388832</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669458388833</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Departure Hour histogram builder">
+      <created>1671010113762</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671010113762</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Commit all other files">
+      <created>1671010151658</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671010151658</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +199,10 @@
     <MESSAGE value="Version 1" />
     <MESSAGE value="Version 1 of kata4" />
     <MESSAGE value="kata5 Initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="kata5 Initial" />
+    <MESSAGE value="Kata 5 working good" />
+    <MESSAGE value="Kata 5 Version 1" />
+    <MESSAGE value="Departure Hour histogram builder" />
+    <MESSAGE value="Commit all other files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit all other files" />
   </component>
 </project>
