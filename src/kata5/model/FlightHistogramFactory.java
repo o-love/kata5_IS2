@@ -6,6 +6,10 @@ import java.util.stream.StreamSupport;
 
 public class FlightHistogramFactory {
 
+    public static Histogram<Integer> createFromDepartureTime(Iterable<Flight> flights) {
+        return create(flights, flight -> flight.departureTime().getHour());
+    }
+
     public static Histogram<Integer> createFromArrivalDelay(Iterable<Flight> flights) {
         return create(flights, flight -> {
             if (flight.arrivalDelay() < 0) {
